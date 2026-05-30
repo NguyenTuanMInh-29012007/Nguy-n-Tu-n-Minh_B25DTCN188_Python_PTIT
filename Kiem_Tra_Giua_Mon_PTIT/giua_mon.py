@@ -1,10 +1,6 @@
 import json
 
-f = open(
-    "Kiem_Tra_Giua_Mon_PTIT/data.json",
-    "r",
-    encoding="utf-8"
-)
+f = open("data.json", "r", encoding="utf-8")
 student_list = json.load(f)
 f.close()
 
@@ -101,7 +97,7 @@ while True:
 
                     student_list.append(student)
 
-                    f = open("Kiem_Tra_Giua_Mon_PTIT/data.json", "w", encoding="utf-8")
+                    f = open("data.json", "w", encoding="utf-8")
                     json.dump(student_list, f, ensure_ascii=False, indent=4)
                     f.close()
 
@@ -149,7 +145,7 @@ while True:
                     else:
                         student["xep_loai"] = "Giỏi"
 
-                    f = open("Kiem_Tra_Giua_Mon_PTIT/data.json", "w", encoding="utf-8")
+                    f = open("data.json", "w", encoding="utf-8")
                     json.dump(student_list, f, ensure_ascii=False, indent=4)
                     f.close()
 
@@ -178,7 +174,7 @@ while True:
 
                         student_list.remove(student)
 
-                        f = open("Kiem_Tra_Giua_Mon_PTIT/data.json", "w", encoding="utf-8")
+                        f = open("data.json", "w", encoding="utf-8")
                         json.dump(student_list, f, ensure_ascii=False, indent=4)
                         f.close()
 

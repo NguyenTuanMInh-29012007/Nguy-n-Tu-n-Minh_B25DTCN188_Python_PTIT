@@ -1,0 +1,20 @@
+[
+    {
+        "id": "SV001",
+        "ten": "Nguyen Van A",
+        "diem_toan": 8.5,
+        "diem_ly": 7.0,
+        "diem_hoa": 9.0,
+        "diem_tb": 8.17,
+        "xep_loai": "Giỏi"
+    },
+    {
+        "id": "SV002",
+        "ten": "Minh",
+        "diem_toan": 9.0,
+        "diem_ly": 8.0,
+        "diem_hoa": 7.0,
+        "diem_tb": 8.0,
+        "xep_loai": "Giỏi"
+    }
+]
